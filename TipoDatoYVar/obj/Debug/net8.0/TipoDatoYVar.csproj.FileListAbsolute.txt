@@ -1,0 +1,14 @@
+C:\Users\tomas\source\repos\TipoDatoYVar\bin\Debug\net8.0\TipoDatoYVar.exe
+C:\Users\tomas\source\repos\TipoDatoYVar\bin\Debug\net8.0\TipoDatoYVar.deps.json
+C:\Users\tomas\source\repos\TipoDatoYVar\bin\Debug\net8.0\TipoDatoYVar.runtimeconfig.json
+C:\Users\tomas\source\repos\TipoDatoYVar\bin\Debug\net8.0\TipoDatoYVar.dll
+C:\Users\tomas\source\repos\TipoDatoYVar\bin\Debug\net8.0\TipoDatoYVar.pdb
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.AssemblyInfoInputs.cache
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.AssemblyInfo.cs
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.dll
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\refint\TipoDatoYVar.dll
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.pdb
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\TipoDatoYVar.genruntimeconfig.cache
+C:\Users\tomas\source\repos\TipoDatoYVar\obj\Debug\net8.0\ref\TipoDatoYVar.dll
