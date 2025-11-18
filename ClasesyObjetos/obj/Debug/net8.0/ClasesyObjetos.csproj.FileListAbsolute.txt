@@ -1,0 +1,15 @@
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\bin\Debug\net8.0\ClasesyObjetos.exe
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\bin\Debug\net8.0\ClasesyObjetos.deps.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\bin\Debug\net8.0\ClasesyObjetos.runtimeconfig.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\bin\Debug\net8.0\ClasesyObjetos.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\bin\Debug\net8.0\ClasesyObjetos.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.AssemblyInfo.cs
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.sourcelink.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\refint\ClasesyObjetos.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ClasesyObjetos.genruntimeconfig.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ClasesyObjetos\obj\Debug\net8.0\ref\ClasesyObjetos.dll
