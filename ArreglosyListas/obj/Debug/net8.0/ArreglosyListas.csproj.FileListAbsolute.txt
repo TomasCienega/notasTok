@@ -1,0 +1,15 @@
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\bin\Debug\net8.0\ArreglosyListas.exe
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\bin\Debug\net8.0\ArreglosyListas.deps.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\bin\Debug\net8.0\ArreglosyListas.runtimeconfig.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\bin\Debug\net8.0\ArreglosyListas.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\bin\Debug\net8.0\ArreglosyListas.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.AssemblyInfo.cs
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.sourcelink.json
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\refint\ArreglosyListas.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ArreglosyListas.genruntimeconfig.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\ArreglosyListas\obj\Debug\net8.0\ref\ArreglosyListas.dll
