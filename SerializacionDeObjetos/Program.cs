@@ -117,7 +117,7 @@ Console.WriteLine("\n");
 
     //****************************
     //Se crea un JSON a partir de un documento (DESSERIALIZACIÓN) STRING QUE CONTIENE JSON A OBJETO
-    string? myJson = File.ReadAllText("objeto.txt");
-    Refresco? chesco = JsonSerializer.Deserialize<Refresco>(myJson);
+    //string? myJson = File.ReadAllText("objeto.txt");
+    //Refresco? chesco = JsonSerializer.Deserialize<Refresco>(myJson);
 
 }

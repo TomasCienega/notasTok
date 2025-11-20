@@ -1,0 +1,15 @@
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\bin\Debug\net8.0\SolicitudServWeb.exe
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\bin\Debug\net8.0\SolicitudServWeb.deps.json
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\bin\Debug\net8.0\SolicitudServWeb.runtimeconfig.json
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\bin\Debug\net8.0\SolicitudServWeb.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\bin\Debug\net8.0\SolicitudServWeb.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.AssemblyInfo.cs
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.sourcelink.json
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\refint\SolicitudServWeb.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\SolicitudServWeb.genruntimeconfig.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\SolicitudServWeb\obj\Debug\net8.0\ref\SolicitudServWeb.dll
