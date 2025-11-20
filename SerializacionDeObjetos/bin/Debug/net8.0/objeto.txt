@@ -1,0 +1,1 @@
+{"Gas":60,"Marca":"Coca-Cola","Nombre":"Jarrito","Cantidad":30}
