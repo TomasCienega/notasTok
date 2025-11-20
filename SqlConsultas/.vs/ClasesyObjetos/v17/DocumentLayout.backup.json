@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\models\\refrescobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:models\\refrescobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\models\\refresco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:models\\refresco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\models\\jugo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:models\\jugo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:models\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\sqlconsultas\\models\\bebidagasificada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4756102-0F10-495F-AE15-7A29E3280EA0}|ClasesyObjetos.csproj|solutionrelative:models\\bebidagasificada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bebida.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Bebida.cs",
+              "RelativeDocumentMoniker": "Models\\Bebida.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Bebida.cs",
+              "RelativeToolTip": "Models\\Bebida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:57:15.099Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jugo.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Jugo.cs",
+              "RelativeDocumentMoniker": "Models\\Jugo.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Jugo.cs",
+              "RelativeToolTip": "Models\\Jugo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:40:40.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BebidaGasificada.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\BebidaGasificada.cs",
+              "RelativeDocumentMoniker": "Models\\BebidaGasificada.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\BebidaGasificada.cs",
+              "RelativeToolTip": "Models\\BebidaGasificada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:28:21.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Refresco.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Refresco.cs",
+              "RelativeDocumentMoniker": "Models\\Refresco.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\Refresco.cs",
+              "RelativeToolTip": "Models\\Refresco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T21:38:13.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwFsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:53:57.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RefrescoBD.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\RefrescoBD.cs",
+              "RelativeDocumentMoniker": "Models\\RefrescoBD.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\SqlConsultas\\Models\\RefrescoBD.cs",
+              "RelativeToolTip": "Models\\RefrescoBD.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAGIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:43:47.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
