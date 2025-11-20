@@ -1,0 +1,15 @@
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\bin\Debug\net8.0\MetodosHttp.exe
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\bin\Debug\net8.0\MetodosHttp.deps.json
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\bin\Debug\net8.0\MetodosHttp.runtimeconfig.json
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\bin\Debug\net8.0\MetodosHttp.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\bin\Debug\net8.0\MetodosHttp.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.AssemblyInfo.cs
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.sourcelink.json
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\refint\MetodosHttp.dll
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.pdb
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\MetodosHttp.genruntimeconfig.cache
+C:\Users\tomas\Downloads\PracticasProgramacion\MetodosHttp\obj\Debug\net8.0\ref\MetodosHttp.dll
