@@ -12,6 +12,8 @@ Telefono  varchar(50),
 Correo varchar(50)
 )
 
+select * from contacto;
+
 create procedure sp_Listar
 as 
 begin 
