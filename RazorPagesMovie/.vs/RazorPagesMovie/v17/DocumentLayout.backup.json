@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F201B2B1-03A7-4757-BB7F-62243A451435}|RazorPagesMovie\\RazorPagesMovie.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\razorpagesmovie\\razorpagesmovie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F201B2B1-03A7-4757-BB7F-62243A451435}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F201B2B1-03A7-4757-BB7F-62243A451435}|RazorPagesMovie\\RazorPagesMovie.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\razorpagesmovie\\razorpagesmovie\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F201B2B1-03A7-4757-BB7F-62243A451435}|RazorPagesMovie\\RazorPagesMovie.csproj|solutionrelative:razorpagesmovie\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T20:05:05.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "RazorPagesMovie\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T20:05:00.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

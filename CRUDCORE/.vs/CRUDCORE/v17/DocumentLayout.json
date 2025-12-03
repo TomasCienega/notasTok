@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\mantenedor\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\mantenedor\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\mantenedor\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\mantenedor\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\mantenedor\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\mantenedor\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\views\\mantenedor\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\views\\mantenedor\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|solutionrelative:crudcore\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9326E72C-6238-456B-BE42-80C6F033386A}|CRUDCORE\\CRUDCORE.csproj|c:\\users\\tomas\\downloads\\practicasprogramacion\\crudcore\\crudcore\\models\\contactomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CRUDCORE\\Views\\Shared\\_Layout.cshtml",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Eliminar.cshtml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Views\\Mantenedor\\Eliminar.cshtml",
               "RelativeDocumentMoniker": "CRUDCORE\\Views\\Mantenedor\\Eliminar.cshtml",
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Views\\Mantenedor\\Editar.cshtml",
               "RelativeDocumentMoniker": "CRUDCORE\\Views\\Mantenedor\\Editar.cshtml",
@@ -92,8 +92,7 @@
               "RelativeToolTip": "CRUDCORE\\Views\\Mantenedor\\Editar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T22:40:19.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T22:40:19.607Z"
             },
             {
               "$type": "Document",
@@ -105,8 +104,7 @@
               "RelativeToolTip": "CRUDCORE\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T22:17:15.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T22:17:15.363Z"
             },
             {
               "$type": "Document",
@@ -118,8 +116,7 @@
               "RelativeToolTip": "CRUDCORE\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T20:59:23.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T20:59:23.303Z"
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "RelativeToolTip": "CRUDCORE\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T20:24:25.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T20:24:25.349Z"
             },
             {
               "$type": "Document",
@@ -144,8 +140,7 @@
               "RelativeToolTip": "CRUDCORE\\Views\\Mantenedor\\Guardar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T20:09:08.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T20:09:08.231Z"
             },
             {
               "$type": "Document",
@@ -155,7 +150,7 @@
               "RelativeDocumentMoniker": "CRUDCORE\\Views\\Mantenedor\\Listar.cshtml",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Views\\Mantenedor\\Listar.cshtml",
               "RelativeToolTip": "CRUDCORE\\Views\\Mantenedor\\Listar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-02T19:50:37.431Z",
               "EditorCaption": ""
@@ -170,8 +165,7 @@
               "RelativeToolTip": "CRUDCORE\\Models\\ContactoModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T19:03:36.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T19:03:36.932Z"
             },
             {
               "$type": "Document",
@@ -183,18 +177,17 @@
               "RelativeToolTip": "CRUDCORE\\Datos\\ContactoDatos.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T18:58:43.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T18:58:43.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MantenedorController.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Controllers\\MantenedorController.cs",
               "RelativeDocumentMoniker": "CRUDCORE\\Controllers\\MantenedorController.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\CRUDCORE\\CRUDCORE\\Controllers\\MantenedorController.cs",
               "RelativeToolTip": "CRUDCORE\\Controllers\\MantenedorController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwD4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA6wD4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T18:34:42.397Z",
               "EditorCaption": ""
