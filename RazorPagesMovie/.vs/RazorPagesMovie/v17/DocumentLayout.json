@@ -58,8 +58,7 @@
               "RelativeToolTip": "RazorPagesMovie\\SeedData\\SeedData.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:58:13.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:58:13.509Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T04:53:34.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:53:34.213Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "RazorPagesMovie\\Models\\Movie.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Models\\Movie.cs",
               "RelativeToolTip": "RazorPagesMovie\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T04:28:20.953Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T04:05:36.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:05:36.623Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCwAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:05:40.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:05:40.566Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:05:00.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:05:00.581Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T02:55:15.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:55:15.889Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T02:55:14.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:55:14.946Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T02:54:52.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:54:52.336Z"
             }
           ]
         }
