@@ -24,7 +24,7 @@ insert into Departamento(nombre) values
 insert into Empleado(nombreCompleto,idDepartamento,sueldo,fechaContrato) values
 ('Adrian Torres',1,1500,GETDATE());
 
---=================== CREAR PROCEDIMIENTOS ALMACENADOS =============================
+--=================== CREAR PROCEDIMIENTOS ALMACENADOS PARA DEPARTAMENTOS =========================
 
 create procedure sp_ListarDepartamentos
 as
@@ -32,6 +32,38 @@ begin
 	select idDepartamento,nombre from Departamento;
 end
 
+create procedure sp_GuardarDepartamento
+(
+	@nombre varchar(50)
+)
+as
+begin
+	insert into Departamento(nombre) values (@nombre)
+end
+
+create procedure sp_EditarDepartamento
+(
+	@idDepartamento int,
+	@nombre varchar(50)
+)
+as
+begin
+	update Departamento set
+	nombre = @nombre
+	where idDepartamento = @idDepartamento;
+end
+
+create procedure sp_EliminarDepartamento
+(
+	@idDepartamento int
+)
+as
+begin
+	delete from Departamento
+	where idDepartamento = @idDepartamento
+end
+
+--=================== CREAR PROCEDIMIENTOS ALMACENADOS PARA EMPLEADOS =============================
 create procedure sp_ListarEmpleados
 as
 begin

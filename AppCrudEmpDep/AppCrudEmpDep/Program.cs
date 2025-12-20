@@ -1,8 +1,14 @@
+using AppCrudEmpDep.Models;
+using AppCrudEmpDep.Repositorios.Contrato;
+using AppCrudEmpDep.Repositorios.Implementacion;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.sql
+
+builder.Services.AddScoped<IGenericRepository<Departamento>,DepartamentoRepository>();
+builder.Services.AddScoped<IGenericRepository<Empleado>,EmpleadoRepository>();
 
 var app = builder.Build();
 
