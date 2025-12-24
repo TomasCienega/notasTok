@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\PracticasProgramacion\\RazorPagesMovie\\RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T21:59:50.532Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:59:31.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:59:31.39Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:58:21.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:58:21.157Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:58:03.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:58:03.344Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAArwB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:56:55.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:56:55.485Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Migrations\\20251204050017_Rating.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:56:28.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:56:28.66Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Data\\RazorPagesMovieContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:56:17.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:56:17.111Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T21:56:06.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:56:06.356Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Delete.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T21:56:04.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:56:04.136Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T21:48:34.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:48:34.993Z"
             },
             {
               "$type": "Document",
@@ -228,8 +219,7 @@
               "RelativeToolTip": "RazorPagesMovie\\SeedData\\SeedData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:58:13.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:58:13.509Z"
             },
             {
               "$type": "Document",
@@ -241,8 +231,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T04:53:34.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:53:34.213Z"
             },
             {
               "$type": "Document",
@@ -254,8 +243,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Models\\Movie.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:28:20.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:28:20.953Z"
             },
             {
               "$type": "Document",
@@ -267,8 +255,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T21:51:41.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:51:41.07Z"
             },
             {
               "$type": "Document",
@@ -280,8 +267,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T04:05:36.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:05:36.623Z"
             },
             {
               "$type": "Document",
@@ -293,8 +279,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Migrations\\RazorPagesMovieContextModelSnapshot.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:52:24.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:52:24.667Z"
             },
             {
               "$type": "Document",
@@ -306,8 +291,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T21:51:43.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:51:43.525Z"
             },
             {
               "$type": "Document",
@@ -319,8 +303,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Pages\\Movies\\Edit.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T02:54:52.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:54:52.336Z"
             },
             {
               "$type": "Document",
@@ -332,8 +315,7 @@
               "RelativeToolTip": "RazorPagesMovie\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T21:46:36.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T21:46:36.123Z"
             }
           ]
         }
