@@ -1,28 +1,28 @@
 ﻿
--- CAPÍTULO 1: CREACIÓN DE BASE DE DATOS
+USE master;
+GO
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'GamerVerse')
+    DROP DATABASE GamerVerse;
+GO
 CREATE DATABASE GamerVerse;
 GO
 USE GamerVerse;
 GO
 
--- TABLA DE JUGADORES
+-- 1. TABLA JUGADORES
 CREATE TABLE Jugadores (
-    JugadorID INT IDENTITY PRIMARY KEY,
+    IdJugador INT IDENTITY PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
     Pais VARCHAR(50),
     FechaRegistro DATE DEFAULT GETDATE(),
     Nivel INT DEFAULT 1,
     Experiencia INT DEFAULT 0
 );
-
 -- INSERTS (originales + añadidos coherentes)
 INSERT INTO Jugadores (Nombre, Pais, Nivel, Experiencia) VALUES
 ('Raven', 'México', 12, 3500),
 ('Kai', 'Chile', 5, 800),
-('Lira', 'Argentina', 20, 7600);
-
--- Añadimos jugadores adicionales hasta 50 en total (minimalista coherente)
-INSERT INTO Jugadores (Nombre, Pais, Nivel, Experiencia) VALUES
+('Lira', 'Argentina', 20, 7600),
 ('Aldren','México',25,15400),
 ('Lyra','España',42,38900),
 ('Kornex','Perú',18,7200),
@@ -74,9 +74,9 @@ INSERT INTO Jugadores (Nombre, Pais, Nivel, Experiencia) VALUES
 ('Yrva','México',24,12500),
 ('Gorth','Chile',16,5800);
 
--- TABLA DE JUEGOS
+-- 2. TABLA JUEGOS
 CREATE TABLE Juegos (
-    JuegoID INT IDENTITY PRIMARY KEY,
+    IdJuego INT IDENTITY PRIMARY KEY,
     Titulo VARCHAR(100) NOT NULL,
     Desarrolladora VARCHAR(100),
     Lanzamiento DATE,
@@ -87,10 +87,7 @@ CREATE TABLE Juegos (
 INSERT INTO Juegos (Titulo, Desarrolladora, Lanzamiento, Genero) VALUES
 ('Starfall Odyssey', 'NebulaWorks', '2022-05-14', 'RPG'),
 ('Steel Arena', 'IronForge', '2020-11-03', 'Shooter'),
-('Mystic Realms', 'LunarSoft', '2023-02-20', 'MMO');
-
--- Juegos adicionales (minimally coherent, to reach a useful set)
-INSERT INTO Juegos (Titulo, Desarrolladora, Lanzamiento, Genero) VALUES
+('Mystic Realms', 'LunarSoft', '2023-02-20', 'MMO'),
 ('Neon Drift','Hyperbyte','2019-09-10','Racing'),
 ('Phantom Siege','Abyssal Studios','2021-03-22','Strategy'),
 ('Echoes of Gaia','GreenPeak','2018-07-18','Adventure'),
@@ -141,7 +138,7 @@ INSERT INTO Juegos (Titulo, Desarrolladora, Lanzamiento, Genero) VALUES
 
 -- TABLA PLATAFORMAS
 CREATE TABLE Plataformas (
-    PlataformaID INT IDENTITY PRIMARY KEY,
+    IdPlataforma INT IDENTITY PRIMARY KEY,
     Nombre VARCHAR(50) NOT NULL,
     Fabricante VARCHAR(50)
 );
@@ -150,10 +147,7 @@ CREATE TABLE Plataformas (
 INSERT INTO Plataformas (Nombre, Fabricante) VALUES
 ('PC', 'Varios'),
 ('PlayBox X', 'PlayBox Inc.'),
-('NexaSwitch', 'NexaCorp');
-
--- Plataformas adicionales (coherente set)
-INSERT INTO Plataformas (Nombre, Fabricante) VALUES
+('NexaSwitch', 'NexaCorp'),
 ('ArcStation','ArcCorp'),
 ('MobileOS','OpenMobile'),
 ('CloudStream','StreamSoft'),
@@ -185,41 +179,32 @@ INSERT INTO Plataformas (Nombre, Fabricante) VALUES
 
 -- TABLA INTERMEDIA: JUEGO PLATAFORMA
 CREATE TABLE JuegoPlataforma (
-    JuegoID INT FOREIGN KEY REFERENCES Juegos(JuegoID),
-    PlataformaID INT FOREIGN KEY REFERENCES Plataformas(PlataformaID),
-    PRIMARY KEY (JuegoID, PlataformaID)
+    IdJuego INT FOREIGN KEY REFERENCES Juegos(IdJuego),
+    IdPlataforma INT FOREIGN KEY REFERENCES Plataformas(IdPlataforma),
+    PRIMARY KEY (IdJuego, IdPlataforma)
 );
 
 -- INSERTS existentes
 INSERT INTO JuegoPlataforma VALUES
-(1,1),(1,2),(2,1),(2,2),(2,3),(3,1),(3,3);
-
--- Asociaciones adicionales (coherentes)
-INSERT INTO JuegoPlataforma VALUES
+(1,1),(1,2),(2,1),(2,2),(2,3),(3,1),(3,3),
 (4,1),(4,9),(5,2),(5,4),(6,1),(6,5),(7,8),(7,1),(8,1),(8,2),
 (9,1),(9,10),(10,1),(10,3),(11,1),(11,6),(12,2),(12,11),(13,1),(13,14),
 (14,1),(14,2),(15,2),(15,9),(16,3),(16,1),(17,1),(17,3),(18,1),(18,2),
 (19,3),(19,1),(20,1),(20,2),(21,1),(21,4),(22,2),(22,7),(23,1),(23,2);
 
--- TABLA PARTIDAS
+-- 3. TABLA PARTIDAS (Nombre de columna: DuracionMin y FechaPartida)
 CREATE TABLE Partidas (
-    PartidaID INT IDENTITY PRIMARY KEY,
-    JugadorID INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
-    JuegoID INT FOREIGN KEY REFERENCES Juegos(JuegoID),
+    IdPartida INT IDENTITY PRIMARY KEY,
+    IdJugador INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
+    IdJuego INT FOREIGN KEY REFERENCES Juegos(IdJuego),
     DuracionMin INT,
     Puntuacion INT,
     FechaPartida DATETIME DEFAULT GETDATE()
 );
 
 -- INSERTS (originales + añadidos)
-INSERT INTO Partidas (JugadorID, JuegoID, DuracionMin, Puntuacion) VALUES
-(1,1,45,1200),
-(1,2,30,900),
-(2,1,60,1500),
-(3,3,90,2200);
-
--- Partidas adicionales coherentes
-INSERT INTO Partidas (JugadorID, JuegoID, DuracionMin, Puntuacion) VALUES
+INSERT INTO Partidas (IdJugador, IdJuego, DuracionMin, Puntuacion) VALUES
+(1,1,45,1200),(1,2,30,900),(2,1,60,1500),(3,3,90,2200),
 (4,5,25,850),(5,7,120,3200),(6,8,15,400),(7,10,200,5400),(8,11,35,1100),
 (9,4,55,1300),(10,6,40,1250),(11,12,33,980),(12,13,47,1400),(13,14,22,760),
 (14,15,60,1900),(15,16,78,2100),(16,17,12,300),(17,18,150,4200),(18,19,20,700),
@@ -233,22 +218,16 @@ INSERT INTO Partidas (JugadorID, JuegoID, DuracionMin, Puntuacion) VALUES
 
 -- TABLA LOGROS
 CREATE TABLE Logros (
-    LogroID INT IDENTITY PRIMARY KEY,
-    JuegoID INT FOREIGN KEY REFERENCES Juegos(JuegoID),
+    IdLogro INT IDENTITY PRIMARY KEY,
+    IdJuego INT FOREIGN KEY REFERENCES Juegos(IdJuego),
     Nombre VARCHAR(100),
     Dificultad VARCHAR(20)
 );
 
 -- INSERTS (originales + añadidos)
-INSERT INTO Logros (JuegoID, Nombre, Dificultad) VALUES
-(1,'Cazador Estelar','Media'),
-(1,'Dominador Galáctico','Alta'),
-(2,'Maestro del Acero','Alta'),
-(3,'Sabio Arcano','Media');
-
--- Logros adicionales (coherentes)
-INSERT INTO Logros (JuegoID, Nombre, Dificultad) VALUES
-(4,'Velocidad Terminal','Alta'),(5,'Estratega','Media'),(6,'Curioso','Baja'),
+INSERT INTO Logros (IdJuego, Nombre, Dificultad) VALUES
+(1,'Cazador Estelar','Media'),(1,'Dominador Galáctico','Alta'),(2,'Maestro del Acero','Alta'),
+(3,'Sabio Arcano','Media'),(4,'Velocidad Terminal','Alta'),(5,'Estratega','Media'),(6,'Curioso','Baja'),
 (7,'Aventurero','Baja'),(8,'Campeón','Alta'),(9,'Resuelto','Media'),(10,'Sobreviviente','Alta'),
 (11,'Constructor','Media'),(12,'Vencedor','Alta'),(13,'Explorador','Baja'),(14,'Soberano','Alta'),
 (15,'Técnico','Media'),(16,'Contrabandista','Baja'),(17,'Guardian','Alta'),(18,'Nómada','Baja'),
@@ -263,20 +242,17 @@ INSERT INTO Logros (JuegoID, Nombre, Dificultad) VALUES
 
 -- TABLA LOGROS DESBLOQUEADOS
 CREATE TABLE LogrosJugador (
-    JugadorID INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
-    LogroID INT FOREIGN KEY REFERENCES Logros(LogroID),
+    IdJugador INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
+    IdLogro INT FOREIGN KEY REFERENCES Logros(IdLogro),
     FechaDesbloqueo DATE DEFAULT GETDATE(),
-    PRIMARY KEY (JugadorID, LogroID)
+    PRIMARY KEY (IdJugador, IdLogro)
 );
 
 -- INSERTS (originales + añadidos)
 INSERT INTO LogrosJugador VALUES
-(1,1),(1,3),(2,1),(3,4);
-
--- LogrosJugador adicionales (coherentes)
-INSERT INTO LogrosJugador VALUES
+(1,1),(1,3),(2,1),(3,4),
 (4,6),(4,14),(5,9),(5,25),(6,10),(7,30),(7,47),(8,12),(8,41),(9,13),
-(9,19,(10,15)),(10,20),(11,21),(11,31),(12,22),(12,32),(13,23),(13,33),(14,24),(14,34),
+(9,19),(10,15),(10,20),(11,21),(11,31),(12,22),(12,32),(13,23),(13,33),(14,24),(14,34),
 (15,26),(15,35),(16,27),(16,37),(17,28),(17,38),(18,29),(18,39),(19,40),(19,42),
 (20,43),(20,44),(21,45),(21,46),(22,48),(22,49),(23,50),(23,1),(24,2),(24,3),
 (25,4),(25,5),(26,6),(26,7),(27,8),(27,9),(28,10),(28,11),(29,12),(29,13),
@@ -288,55 +264,60 @@ INSERT INTO LogrosJugador VALUES
 
 -- STORED PROCEDURE EJEMPLO
 CREATE PROCEDURE IncrementarExperiencia
-    @JugadorID INT,
+    @IdJugador INT,
     @Cantidad INT
 AS
 BEGIN
     UPDATE Jugadores
     SET Experiencia = Experiencia + @Cantidad
-    WHERE JugadorID = @JugadorID;
+    WHERE IdJugador = @IdJugador;
 END;
 GO
 
--- TRIGGER EJEMPLO: subir nivel al superar 1000 exp
+-- 5. TRIGGER ACTUALIZADO: Salto de niveles (Lógica 1000 XP)
 CREATE TRIGGER AutoNivelUP
 ON Jugadores
 AFTER UPDATE
 AS
 BEGIN
-    UPDATE Jugadores
-    SET Nivel = Nivel + 1
-    WHERE Experiencia >= 1000 AND Nivel < (Experiencia / 1000);
+    IF UPDATE(Experiencia)
+    BEGIN
+        UPDATE Jugadores
+        SET Nivel = (Experiencia / 1000)
+        FROM Jugadores
+        INNER JOIN inserted i ON Jugadores.IdJugador = i.IdJugador
+        WHERE (Jugadores.Experiencia / 1000) > Jugadores.Nivel;
+    END
 END;
 GO
 
 -- FUNCIÓN EJEMPLO: total de logros por jugador
-CREATE FUNCTION TotalLogrosJugador(@JugadorID INT)
+CREATE FUNCTION TotalLogrosJugador(@IdJugador INT)
 RETURNS INT
 AS
 BEGIN
     DECLARE @Total INT;
-    SELECT @Total = COUNT(*) FROM LogrosJugador WHERE JugadorID = @JugadorID;
+    SELECT @Total = COUNT(*) FROM LogrosJugador WHERE IdJugador = @IdJugador;
     RETURN @Total;
 END;
 GO
 
 -- TRANSACCIÓN EJEMPLO
 BEGIN TRAN
-    UPDATE Jugadores SET Experiencia = Experiencia + 500 WHERE JugadorID = 1;
-    INSERT INTO Partidas (JugadorID, JuegoID, DuracionMin, Puntuacion) VALUES (1,3,70,1800);
+    UPDATE Jugadores SET Experiencia = Experiencia + 500 WHERE IdJugador = 1;
+    INSERT INTO Partidas (IdJugador, IdJuego, DuracionMin, Puntuacion) VALUES (1,3,70,1800);
 COMMIT;
 GO
 
 -- CAPÍTULO 2: EXPANSIÓN AVANZADA
 -- Nuevos conceptos para seguir entrenando habilidades SQL avanzadas
 
--- TABLA DE AUDITORÍA DE PARTIDAS
+-- 4. TABLA AUDITORÍA
 CREATE TABLE AuditoriaPartidas (
-    AuditID INT IDENTITY PRIMARY KEY,
-    PartidaID INT,
-    JugadorID INT,
-    JuegoID INT,
+    IdAudit INT IDENTITY PRIMARY KEY,
+    IdPartida INT,
+    IdJugador INT,
+    IdJuego INT,
     Fecha DATETIME DEFAULT GETDATE(),
     Evento VARCHAR(100)
 );
@@ -348,26 +329,26 @@ ON Partidas
 AFTER INSERT
 AS
 BEGIN
-    INSERT INTO AuditoriaPartidas (PartidaID, JugadorID, JuegoID, Evento)
-    SELECT PartidaID, JugadorID, JuegoID, 'Nueva partida registrada'
+    INSERT INTO AuditoriaPartidas (IdPartida, IdJugador, IdJuego, Evento)
+    SELECT IdPartida, IdJugador, IdJuego, 'Nueva partida registrada'
     FROM inserted;
 END;
 GO
 
 -- FUNCIÓN AVANZADA: promedio de puntuación por jugador
-CREATE FUNCTION PromedioPuntuacionJugador(@JugadorID INT)
+CREATE FUNCTION PromedioPuntuacionJugador(@IdJugador INT)
 RETURNS FLOAT
 AS
 BEGIN
     DECLARE @Prom FLOAT;
-    SELECT @Prom = AVG(Puntuacion) FROM Partidas WHERE JugadorID = @JugadorID;
+    SELECT @Prom = AVG(Puntuacion) FROM Partidas WHERE IdJugador = @IdJugador;
     RETURN @Prom;
 END;
 GO
 
 -- VISTA: ranking global de jugadores por experiencia
 CREATE VIEW RankingExperiencia AS
-SELECT JugadorID, Nombre, Nivel, Experiencia
+SELECT TOP 100 PERCENT IdJugador, Nombre, Nivel, Experiencia
 FROM Jugadores
 ORDER BY Experiencia DESC;
 GO
@@ -376,7 +357,7 @@ GO
 
 -- TABLA: CLANES
 CREATE TABLE Clanes (
-    ClanID INT IDENTITY PRIMARY KEY,
+    IdClan INT IDENTITY PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
     Fundacion DATE DEFAULT GETDATE()
 );
@@ -391,15 +372,15 @@ INSERT INTO Clanes (Nombre) VALUES
 
 -- TABLA: MIEMBROS DE CLAN
 CREATE TABLE ClanMiembros (
-    ClanID INT FOREIGN KEY REFERENCES Clanes(ClanID),
-    JugadorID INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
+    IdClan INT FOREIGN KEY REFERENCES Clanes(IdClan),
+    IdJugador INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
     Rol VARCHAR(50) DEFAULT 'Miembro',
-    PRIMARY KEY (ClanID, JugadorID)
+    PRIMARY KEY (IdClan, IdJugador)
 );
 GO
 
 -- POBLADO MINIMALISTA Y COHERENTE (CLANMIEMBROS)
-INSERT INTO ClanMiembros (ClanID, JugadorID, Rol) VALUES
+INSERT INTO ClanMiembros (IdClan, IdJugador, Rol) VALUES
 (1,1,'Lider'),
 (1,5,'Miembro'),
 (1,12,'Miembro'),
@@ -415,9 +396,9 @@ INSERT INTO ClanMiembros (ClanID, JugadorID, Rol) VALUES
 
 -- TABLA: COMERCIO ENTRE JUGADORES
 CREATE TABLE Comercio (
-    TradeID INT IDENTITY PRIMARY KEY,
-    JugadorOrigen INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
-    JugadorDestino INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
+    IdTrade INT IDENTITY PRIMARY KEY,
+    JugadorOrigen INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
+    JugadorDestino INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
     Item VARCHAR(100),
     Cantidad INT,
     Fecha DATETIME DEFAULT GETDATE()
@@ -435,7 +416,7 @@ INSERT INTO Comercio (JugadorOrigen, JugadorDestino, Item, Cantidad) VALUES
 
 -- TABLA: ITEMS GLOBALES
 CREATE TABLE Items (
-    ItemID INT IDENTITY PRIMARY KEY,
+    IdItem INT IDENTITY PRIMARY KEY,
     Nombre VARCHAR(100),
     Rareza VARCHAR(50)
 );
@@ -461,41 +442,42 @@ INSERT INTO Items (Nombre, Rareza) VALUES
 
 -- TABLA INTERMEDIA: INVENTARIOS
 CREATE TABLE Inventarios (
-    JugadorID INT FOREIGN KEY REFERENCES Jugadores(JugadorID),
-    ItemID INT FOREIGN KEY REFERENCES Items(ItemID),
+    IdJugador INT FOREIGN KEY REFERENCES Jugadores(IdJugador),
+    IdItem INT FOREIGN KEY REFERENCES Items(IdItem),
     Cantidad INT DEFAULT 1,
-    PRIMARY KEY (JugadorID, ItemID)
+    PRIMARY KEY (IdJugador, IdItem)
 );
 GO
 
 -- POBLADO MINIMALISTA Y COHERENTE (INVENTARIOS)
 -- Incluye items legendarios en inventario, pero no en comercio (salvo intento controlado)
-INSERT INTO Inventarios (JugadorID, ItemID, Cantidad) VALUES
+INSERT INTO Inventarios (IdJugador, IdItem, Cantidad) VALUES
 (1,1,1),(1,4,5),(2,2,1),(2,3,1),(3,4,3),(3,5,2),
 (4,6,1),(4,8,1),(5,7,1),(6,9,4),(7,10,1),(8,11,2),(9,12,1),(10,13,1);
 
--- CTE RECURSIVA: niveles ascendentes por experiencia
-WITH Niveles AS (
-    SELECT JugadorID, Nombre, Nivel, Experiencia, 1 AS Paso
+-- 7. CTE RECURSIVA CORREGIDA (Lógica 1000 XP)
+-- Esto sirve para proyectar a qué nivel llegaría el jugador
+WITH NivelesProyectados AS (
+    SELECT IdJugador, Nombre, Nivel, Experiencia, 1 AS Paso
     FROM Jugadores
     UNION ALL
-    SELECT JugadorID, Nombre, Nivel + 1, Experiencia, Paso + 1
-    FROM Niveles
-    WHERE Nivel < (Experiencia / 500)
+    SELECT IdJugador, Nombre, Nivel + 1, Experiencia, Paso + 1
+    FROM NivelesProyectados
+    WHERE Nivel < (Experiencia / 1000) -- Corregido de 500 a 1000
 )
-SELECT * FROM Niveles;
+SELECT * FROM NivelesProyectados;
 GO
 
 -- PROCEDIMIENTO: transferir ítems entre jugadores con verificación
 CREATE PROCEDURE TransferirItem
     @Origen INT,
     @Destino INT,
-    @ItemID INT,
+    @IdItem INT,
     @Cantidad INT
 AS
 BEGIN
     BEGIN TRAN
-        IF NOT EXISTS (SELECT 1 FROM Inventarios WHERE JugadorID = @Origen AND ItemID = @ItemID AND Cantidad >= @Cantidad)
+        IF NOT EXISTS (SELECT 1 FROM Inventarios WHERE IdJugador = @Origen AND IdItem = @IdItem AND Cantidad >= @Cantidad)
         BEGIN
             ROLLBACK;
             RETURN;
@@ -503,13 +485,13 @@ BEGIN
 
         UPDATE Inventarios
         SET Cantidad = Cantidad - @Cantidad
-        WHERE JugadorID = @Origen AND ItemID = @ItemID;
+        WHERE IdJugador = @Origen AND IdItem = @IdItem;
 
         MERGE Inventarios AS T
-        USING (SELECT @Destino AS JugadorID, @ItemID AS ItemID, @Cantidad AS Cantidad) AS S
-        ON T.JugadorID = S.JugadorID AND T.ItemID = S.ItemID
+        USING (SELECT @Destino AS IdJugador, @IdItem AS IdItem, @Cantidad AS Cantidad) AS S
+        ON T.IdJugador = S.IdJugador AND T.IdItem = S.IdItem
         WHEN MATCHED THEN UPDATE SET Cantidad = T.Cantidad + S.Cantidad
-        WHEN NOT MATCHED THEN INSERT VALUES (S.JugadorID, S.ItemID, S.Cantidad);
+        WHEN NOT MATCHED THEN INSERT VALUES (S.IdJugador, S.IdItem, S.Cantidad);
 
     COMMIT;
 END;
@@ -536,47 +518,47 @@ GO
 
 -- PROCEDIMIENTO COMPLEJO: reporte de actividad del jugador
 CREATE PROCEDURE ReporteActividadJugador
-    @JugadorID INT
+    @IdJugador INT
 AS
 BEGIN
     SELECT j.Nombre,
-           (SELECT COUNT(*) FROM Partidas p WHERE p.JugadorID = j.JugadorID) AS TotalPartidas,
-           (SELECT COUNT(*) FROM LogrosJugador lj WHERE lj.JugadorID = j.JugadorID) AS TotalLogros,
-           (SELECT AVG(Puntuacion) FROM Partidas p WHERE p.JugadorID = j.JugadorID) AS PromedioPuntuacion
+           (SELECT COUNT(*) FROM Partidas p WHERE p.IdJugador = j.IdJugador) AS TotalPartidas,
+           (SELECT COUNT(*) FROM LogrosJugador lj WHERE lj.IdJugador = j.IdJugador) AS TotalLogros,
+           (SELECT AVG(Puntuacion) FROM Partidas p WHERE p.IdJugador = j.IdJugador) AS PromedioPuntuacion
     FROM Jugadores j
-    WHERE j.JugadorID = @JugadorID;
+    WHERE j.IdJugador = @IdJugador;
 END;
 GO
 
 -- PROCEDIMIENTO: registrar partida con validaciones
 CREATE PROCEDURE RegistrarPartidaSegura
-    @JugadorID INT,
-    @JuegoID INT,
+    @IdJugador INT,
+    @IdJuego INT,
     @Duracion INT,
     @Puntuacion INT
 AS
 BEGIN
     IF @Duracion <= 0 OR @Puntuacion < 0 RETURN;
 
-    INSERT INTO Partidas (JugadorID, JuegoID, DuracionMin, Puntuacion)
-    VALUES (@JugadorID, @JuegoID, @Duracion, @Puntuacion);
+    INSERT INTO Partidas (IdJugador, IdJuego, DuracionMin, Puntuacion)
+    VALUES (@IdJugador, @IdJuego, @Duracion, @Puntuacion);
 END;
 GO
 
 -- SUBCONSULTA: juegos favoritos por mayor puntuación histórica
 CREATE VIEW JuegosFavoritos AS
-SELECT j.JugadorID, ju.Titulo,
-       (SELECT MAX(Puntuacion) FROM Partidas p WHERE p.JugadorID = j.JugadorID AND p.JuegoID = ju.JuegoID) AS MaxPuntuacion
+SELECT j.IdJugador, ju.Titulo,
+       (SELECT MAX(Puntuacion) FROM Partidas p WHERE p.IdJugador = j.IdJugador AND p.IdJuego = ju.IdJuego) AS MaxPuntuacion
 FROM Jugadores j
-JOIN Juegos ju ON EXISTS (SELECT 1 FROM Partidas p WHERE p.JugadorID = j.JugadorID AND p.JuegoID = ju.JuegoID);
+JOIN Juegos ju ON EXISTS (SELECT 1 FROM Partidas p WHERE p.IdJugador = j.IdJugador AND p.IdJuego = ju.IdJuego);
 GO
 
 -- JOIN MULTINIVEL: resumen de comercio
 CREATE VIEW ResumenComercio AS
-SELECT c.TradeID, o.Nombre AS Origen, d.Nombre AS Destino, c.Item, c.Cantidad, c.Fecha
+SELECT c.IdTrade, o.Nombre AS Origen, d.Nombre AS Destino, c.Item, c.Cantidad, c.Fecha
 FROM Comercio c
-JOIN Jugadores o ON c.JugadorOrigen = o.JugadorID
-JOIN Jugadores d ON c.JugadorDestino = d.JugadorID;
+JOIN Jugadores o ON c.JugadorOrigen = o.IdJugador
+JOIN Jugadores d ON c.JugadorDestino = d.IdJugador;
 GO
 
 /* ===============================================================
@@ -886,6 +868,7 @@ GO
 --     para listar partidas filtradas por cualquier columna y valor dado.
 
 -- ===============================================================
+
 -- ================ GUÍA ULTRA COMENTADA GAMERVERSE ============
 -- Descripción: Ejemplos funcionales explicados línea por línea
 -- para aprender SQL Server usando la base de datos GamerVerse.
@@ -937,32 +920,28 @@ END;
 -- Cuando varias operaciones deben ejecutarse juntas o revertirse si falla alguna.
 -- EJEMPLO: insertar partida, actualizar experiencia y registrar auditoría.
 -- ===============================================================
-BEGIN TRAN Transaccion_Partida
--- Inicia la transacción y le da un nombre
+-- 8. TRANSACCIÓN CORREGIDA (Usa DuracionMin y nombres correctos)
 BEGIN TRY
-    -- BEGIN TRY: Bloque que intenta ejecutar las instrucciones
-    INSERT INTO Partidas(IdJugador, IdJuego, Puntuacion, Duracion)
-    VALUES (1, 2, 1500, 50);
-    -- Inserta una nueva partida del jugador 1 en el juego 2
+    BEGIN TRAN Transaccion_Partida;
+        
+        -- Insertamos usando DuracionMin (que es el nombre real de tu tabla)
+        INSERT INTO Partidas(IdJugador, IdJuego, Puntuacion, DuracionMin)
+        VALUES (1, 2, 1500, 50);
 
-    UPDATE Jugadores
-    SET Experiencia = Experiencia + 150
-    WHERE IdJugador = 1;
-    -- Actualiza la experiencia del jugador 1
+        UPDATE Jugadores
+        SET Experiencia = Experiencia + 150
+        WHERE IdJugador = 1;
 
-    INSERT INTO AuditoriaPartidas(IdJugador, Evento, Fecha)
-    VALUES (1, 'Partida registrada y experiencia actualizada', GETDATE());
-    -- Registra el evento en la tabla de auditoría con la fecha actual
+        INSERT INTO AuditoriaPartidas(IdJugador, Evento, Fecha)
+        VALUES (1, 'Partida registrada y nivel revisado', GETDATE());
 
     COMMIT TRAN;
-    -- Confirma los cambios si todo salió bien
 END TRY
 BEGIN CATCH
-    -- BEGIN CATCH: Bloque que se ejecuta si ocurre algún error
     ROLLBACK TRAN;
-    -- Revierta todo lo que se hizo dentro de la transacción
-    PRINT 'Error en la transacción';
+    PRINT 'Error en la transacción: ' + ERROR_MESSAGE();
 END CATCH;
+GO
 
 -- ===============================================================
 -- 4. TRIGGER
@@ -993,23 +972,17 @@ RETURNS VARCHAR(20)
 AS
 BEGIN
     DECLARE @Resultado VARCHAR(20);
-    -- DECLARE: declara una variable local para guardar el resultado
-
     IF EXISTS (
-        SELECT 1
-        FROM Partidas
+        SELECT 1 FROM Partidas
         WHERE IdJugador = @IdJugador
-        AND Fecha > DATEADD(DAY, -60, GETDATE())
-        -- Verifica si el jugador jugó alguna partida en los últimos 60 días
+        AND FechaPartida > DATEADD(DAY, -60, GETDATE())
     )
         SET @Resultado = 'Jugador Activo';
     ELSE
         SET @Resultado = 'Jugador Inactivo';
-    -- Asigna texto según haya jugado o no
-
     RETURN @Resultado;
-    -- RETURN: devuelve el valor de la función
 END;
+GO
 
 -- ===============================================================
 -- 6. PROGRAMACIÓN SQL
@@ -1022,7 +995,7 @@ DECLARE @DiasSinJugar INT;
 -- DECLARE: declara variables para uso dentro del código
 
 DECLARE JugadoresCursor CURSOR FOR
-SELECT IdJugador, DATEDIFF(DAY, MAX(Fecha), GETDATE()) AS DiasSinJugar
+SELECT IdJugador, DATEDIFF(DAY, MAX(FechaPartida), GETDATE()) AS DiasSinJugar
 FROM Partidas
 GROUP BY IdJugador;
 -- Cursor: permite recorrer fila por fila el resultado de la consulta
